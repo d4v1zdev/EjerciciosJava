@@ -9,6 +9,14 @@ public class PruebaAeropuerto {
 
 		System.out.println(a.aniosAbierto());
 
+		Direccion d = new Direccion("Spain", "mentiras", 1, "Ciudad Real");
+
+		Aeropuerto a2 = new Aeropuerto("Quijote Airport", d, 2000, 1000);
+
+		System.out.println(a2);
+
+		System.out.println(a2.aniosAbierto());
+
 	}
 
 }
